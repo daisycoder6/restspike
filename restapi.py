@@ -15,6 +15,16 @@ def checkserver():
 	core.print_status()
 	return 
 
+@route('/configure')
+#@view('topten')
+def get_config():
+
+	args =request.query.getlist('args')
+	print(args)
+
+	core.configure_setup(args)
+	return 
+
 
 if __name__ == '__main__':
 

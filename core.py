@@ -2,10 +2,13 @@
 Some core function definitions to emulate the application code
 """
 
-def configure():
+def configure_setup(args):
 	"""
 	configure settings
 	"""
+
+	print(args)
+
 
 
 def print_status():

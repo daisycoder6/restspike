@@ -6,5 +6,9 @@ The server of course must be up and running.
 
 import apilib
 
+
+payload = {"args": ["leo", "lo"]}
+
 apilib.checkserver()
+apilib.configure(payload)
 
